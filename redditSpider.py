@@ -8,7 +8,7 @@ FEED_URI = "reddit.csv"
 class RedditspiderSpider(scrapy.Spider):
     name = 'redditSpider'
     allowed_domains = ['www.reddit.com']
-    start_urls = ['https://www.reddit.com/r/jokes/']
+    start_urls = ['https://www.reddit.com/r/puns/']
 
     custom_settings = {
         'DEPTH_LIMIT': 100
