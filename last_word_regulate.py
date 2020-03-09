@@ -4,6 +4,7 @@ import pandas as pd
 import re
 from random_word import RandomWords
 import time
+import contractions
 
 
 puns_dt = pd.read_csv("dad_jokes.csv").iloc[0:10]
